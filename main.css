@@ -30,7 +30,7 @@ body{
     background-color: rgba(8, 7, 7, 0.952);
 }
 .start{
-    background-image: url(/images/background.png);
+    background-image: url(/watermelonsugar/images/background.png);
     background-size: cover;
     border: 0px;
     opacity: 50%;
@@ -154,7 +154,7 @@ a:hover{
 }
 .pg4{
     color: white;
-    background-image: url(/images/harryimage.jpg);
+    background-image: url(/watermelonsugar/images/harryimage.jpg);
     background-size: cover;
     text-align: center;
     position: relative; bottom: 60px;
@@ -200,7 +200,7 @@ footer{
         max-width: 360px;
     }
     .start{
-        background-image: url(/images/harry360.png);
+        background-image: url(/watermelonsugar/images/harry360.png);
         max-width: 360px;
         padding-bottom: 770px;
     }
@@ -263,7 +263,7 @@ footer{
         padding-bottom: 50px;
     }
     .pg4{
-        background-image: url(/images/harryimage360.jpg);
+        background-image: url(/watermelonsugar/images/harryimage360.jpg);
         max-width: 360px;
     }
     .pg4>h1{
