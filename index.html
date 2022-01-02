@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <title>Watermelon Sugar</title>
+    <style>
+        ::selection{
+            background-color: rgba(152,146,255,0.4);
+        }
+        @media screen {
+            .start{
+                background-attachment: scroll;
+            }
+            .page1{
+                background-attachment: scroll;
+            }
+        }
+        @keyframes arrow1 {
+            from{
+                top: 540px;
+            }
+            to {
+                bottom: 10px;
+            }
+            
+        }
+        @keyframes arrow2 {
+            from{
+                bottom: -50px;
+            }
+            to {
+                bottom: -60px;
+            }
+        }
+        body{
+            background-color: rgba(8, 7, 7, 0.952);
+        }
+        .start{
+            background-image: url(/images/background.png);
+            background-size: cover;
+            border: 0px;
+            opacity: 50%;
+            margin: 0px;
+            padding-bottom: 600px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            animation-name: fadeInUp;
+            animation-duration: 3s;
+        }
+        .starttitle{
+            color: white;
+            font-family: Pacifico;
+            font-size: 50px;
+            position: relative; bottom: 450px; left: 420px;
+            background: rgb(152,146,255);
+            background: linear-gradient(90deg, rgba(152,146,255,0.4) 4%, rgba(255,38,93,0.4) 100%);    
+            max-width: 410px;
+            padding: 20px;  
+        }
+        .start>a{
+            width: 50px;
+            max-width: 100px;
+            max-height: 50px;
+            position: relative; top: 550px; left: 640px;
+            animation-name: arrow1;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+        .page1>a{
+            width: 50px;
+            max-width: 100px;
+            max-height: 50px;
+            position: relative; bottom: -70px;
+            animation-name: arrow2;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+        h1{
+            font-family: Pacifico;
+            padding: 10px;
+            font-weight: 50;
+            font-size: 50px;
+        }
+        .pg1head{
+            padding-top: 40px;
+        }
+        .page1{
+            background-color: white;
+            position: relative; bottom: 220px;
+            text-align: center;
+            padding-bottom: 110px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .about{
+            font-family: 'Dancing Script', cursive;
+            font-size: 27px;
+            font-weight: 500;
+
+        }
+        #pg2{
+            color: white;
+            background-color: rgb(8, 7, 7,);
+            position: relative; bottom: 250px;
+            text-align: center;
+            padding-bottom: 140px;
+        }
+        .pg2h1{
+            padding-top: 40px;
+        }
+        .spotify{
+            position: relative; left: 220px; bottom: 10px;
+            padding: 15px;
+            padding-top: 55px;
+            border-radius: 10px;
+        }
+        .applemusic{
+            position: relative; top: 100px;
+            padding: 15px;
+            padding-top: 35px;
+            border-radius: 10px;
+        }
+        .tidal{
+            position: relative; top: 250px; 
+            padding: 15px;
+            padding-top: 70px;
+            border-radius: 10px;
+        }
+        .saavn{
+            position: relative; bottom: 5px;
+            padding-bottom: 0px;
+            padding-top: 65px;
+            border-radius: 10px;
+        }
+        .deezer{
+            position: relative; top: 100px; right: 220px;
+            padding: 15px;
+            padding-top: 55px;
+            border-radius: 10px;
+        }
+        #pg2>a:hover{
+            background: rgb(152,146,255);
+            background: linear-gradient(90deg, rgba(152,146,255,0.4) 4%, rgba(255,38,93,0.4) 100%);
+        }
+        a:hover{
+            transition: all 0.2s;
+        }
+        .pg3{
+            background-color: white;
+            position: relative; bottom: 30px;
+            text-align: center;
+            padding-bottom: 65px;
+        }
+        .pg3h1{
+            padding-top: 40px;
+        }
+        .pg4{
+            color: white;
+            background-image: url(/images/harryimage.jpg);
+            background-size: cover;
+            text-align: center;
+            position: relative; bottom: 60px;
+            padding-bottom: 120px;
+        }
+        .pg4>h1{
+            padding-top: 40px;
+        }
+        .pg4>p{
+            font-size: 20px;
+            font-family: 'Quicksand', sans-serif;
+        }
+        .instagram{
+            padding: 20px;
+            padding-top: 50px;
+            border-radius: 10px;
+            position: relative; bottom: -40px; left: -40px;
+        }
+        .facebook{            
+            padding: 20px;
+            padding-top: 50px;
+            border-radius: 10px;
+            position: relative; bottom: -40px; left: 10px;
+        }
+        .twitter{
+            padding: 20px;
+            padding-top: 50px;
+            border-radius: 10px;
+            position: relative; bottom: -40px; left: 60px;
+        }
+        .pg4>a:hover{
+            background-color: gray;
+        }
+        footer{
+            position: relative; bottom: 60px;
+            background-color: white;
+            padding: 30px;
+            font-size: 20px;
+            font-family: 'Quicksand', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="start">
+        <a href="#pg1"><img src="/images/outline_expand_more_white_24dp.png" alt=""></a>
+    </div>
+    <p class="starttitle">Watermelon Sugar</p>
+    <div class="page1" id="pg1">
+        <h1 class="pg1head">Watermelon Sugar</h1>
+        <br>
+        <br>
+        <p class="about">
+            Released : 2019 <br>
+            Artist : Harry Styles <br>
+            Genres: Alternative/Indie, Pop <br>
+            Songwriters: Thomas Edward Percy Hull / Harry Styles <br>
+            / Mitch Rowland / Tyler Sam Johnson <br>
+            Length : 2m 53s <br>
+            Label: Erskine / Columbia
+        </p>
+        <a href="#pg2"><img src="/images/outline_expand_more_black_24dp.png" alt=""></a>
+    </div>
+    <div id="pg2">
+        <h1 class="pg2h1">Listen On</h1>
+        <a href="https://open.spotify.com/track/6UelLqGlWMcVH1E5c4H7lY" class="spotify" target="_blank"><img src="/images/spotify.png" alt="" width="200px" ></a>
+        <a href="https://music.apple.com/in/album/watermelon-sugar/1485802965" class="applemusic" target="_blank"><img src="/images/applemusic.png" alt="" width="180px"></a>
+        <a href="tidal.com/browse/track/122739765" class="tidal" target="_blank"><img src="/images/tidal.png" alt="" width="150px"></a>
+        <a href="https://www.jiosaavn.com/song/watermelon-sugar/CBIyYDhTBlkl" class="saavn" target="_blank"><img src="/images/saavn.png" alt="" width="220px"></a>
+        <a href="https://deezer.page.link/xdwAHxuPhgiH9Bsx5" class="deezer" target="_blank"><img src="/images/deezer.png" alt="" width="180px"></a>
+    </div>
+    <div class="pg3">
+        <h1 class="pg3h1">Music Video</h1>
+        <br>
+        <iframe width="800" height="400" src="https://www.youtube.com/embed/E07s5ZYygMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="pg4">
+        <h1>About the Artist</h1>
+        <p>Harry Edward Styles is an English singer, songwriter, actor, model, and <br> businessman. His musical career began in 2010 as a solo contestant on the British music <br> competition series The X Factor. Following his elimination early on, he was brought back to join <br> the boy band One Direction, which went on to become one of the best-selling boy bands of all time. <br>
+            Styles released his self-titled debut solo album through Columbia Records in 2017. It debuted <br>at number one in the UK and the US, and became one of the world's top-ten best-selling <br>albums of the year. Its lead single, "Sign of the Times", topped the UK Singles Chart. <br>Styles made his acting debut in Christopher Nolan's 2017 war film Dunkirk. His second <br>album, Fine Line (2019), debuted atop the US Billboard 200 with the biggest first-week <br>sales by an English male artist in history, and was listed among Rolling Stone's "500 <br>Greatest Albums of All Time" in 2020. Its fourth single, "Watermelon Sugar", topped the US<br> Billboard Hot 100.
+            Throughout his career, Styles has earned several accolades, including two Brit Awards, a Grammy <br>Award, an Ivor Novello Award, and an American Music Award. Aside from music, he is also <br>known for his flamboyant fashion, and is the first man to appear solo on the cover of Vogue magazine.</p>
+            <a href="https://www.instagram.com/harrystyles/" class="instagram" target="_blank"><img src="/images/instagram.png" alt="" width="45px"></a>
+            <a href="https://www.facebook.com/harrystyles" class="facebook" target="_blank"><img src="/images/facebook.png" alt="" width="50px"></a>
+            <a href="https://twitter.com/Harry_Styles" class="twitter" target="_blank"><img src="/images/twitter.png" alt="" width="50px"></a>
+    </div>
+    <footer>&#169; 2022, Watermelon Sugar</footer>
+</body>
+</html>
