@@ -165,6 +165,9 @@ a:hover{
 }
 .pg4>p{
     font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
     font-family: 'Quicksand', sans-serif;
 }
 .instagram{
