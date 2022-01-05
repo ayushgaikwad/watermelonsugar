@@ -198,99 +198,6 @@ footer{
     font-size: 20px;
     font-family: 'Quicksand', sans-serif;
 }
-@media (max-device-width: 360px){
-    body{
-        max-width: 360px;
-    }
-    .start{
-        background-image: url(/watermelonsugar/images/harry360.png);
-        max-width: 360px;
-        padding-bottom: 770px;
-    }
-    .starttitle{
-        font-size: 30px;
-        position: relative; left: 25px; bottom: 550px;
-        max-width: 250px;
-    }
-    .start>a{
-        position: relative; left: 150px;
-        max-width: 100px;
-    }
-    .page1{
-        max-width: 520px;
-    }
-    .pg1head{
-        font-size: 30px;
-        padding-top: 40px;
-    }
-    .about{
-        position: relative; left: 45px;
-        font-size: 20px;
-        padding-bottom: 180px;
-        max-width: 250px;
-    }
-    #pg2{
-        max-width: 360px;
-        padding: 20px;
-    }
-    .spotify{
-        position: relative; left: 1px; top: 20px;
-    }
-    .applemusic{
-        position:relative; top: 50px;
-    }
-    .saavn{
-        position: relative; top: 10px;
-    }
-    .deezer{
-        position: relative; top: 40px; left: 1px;
-    }
-    .tidal{
-        position: relative; top: 290px;
-    }
-    .pg2h1{
-        font-size: 40px;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    iframe{
-        max-width: 250px;
-    }
-    .pg3{
-        max-width: 360px;
-        padding-bottom: 200px;
-    }
-    .pg3h1{
-        font-size: 40px;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    .pg4{
-        background-image: url(/watermelonsugar/images/harryimage360.jpg);
-        max-width: 360px;
-    }
-    .pg4>h1{
-        font-size: 40px;
-        max-width: 360px;
-    }
-    .pg4>p{
-        text-align: left;
-        padding: 50px;
-        font-size: 15px;
-    }
-    .instagram{
-        position: relative; left: 5px;
-    }
-    .twitter{
-        position: relative; left: -2px;
-    }
-    .facebook{
-        position: relative; left: -1px;
-    }
-    footer{
-        max-width: 360px;
-    }
-}
 @media (max-device-width: 412px){
     body{
         max-width: 412px;
@@ -860,5 +767,98 @@ footer{
         max-width: 375px;
     }
 }
+    }
+}
+@media (max-device-width: 360px){
+    body{
+        max-width: 360px;
+    }
+    .start{
+        background-image: url(/watermelonsugar/images/harry360.png);
+        max-width: 360px;
+        padding-bottom: 770px;
+    }
+    .starttitle{
+        font-size: 30px;
+        position: relative; left: 25px; bottom: 550px;
+        max-width: 250px;
+    }
+    .start>a{
+        position: relative; left: 150px;
+        max-width: 100px;
+    }
+    .page1{
+        max-width: 520px;
+    }
+    .pg1head{
+        font-size: 30px;
+        padding-top: 40px;
+    }
+    .about{
+        position: relative; left: 45px;
+        font-size: 20px;
+        padding-bottom: 180px;
+        max-width: 250px;
+    }
+    #pg2{
+        max-width: 360px;
+        padding: 20px;
+    }
+    .spotify{
+        position: relative; left: 1px; top: 20px;
+    }
+    .applemusic{
+        position:relative; top: 50px;
+    }
+    .saavn{
+        position: relative; top: 10px;
+    }
+    .deezer{
+        position: relative; top: 40px; left: 1px;
+    }
+    .tidal{
+        position: relative; top: 290px;
+    }
+    .pg2h1{
+        font-size: 40px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    iframe{
+        max-width: 250px;
+    }
+    .pg3{
+        max-width: 360px;
+        padding-bottom: 200px;
+    }
+    .pg3h1{
+        font-size: 40px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .pg4{
+        background-image: url(/watermelonsugar/images/harryimage360.jpg);
+        max-width: 360px;
+    }
+    .pg4>h1{
+        font-size: 40px;
+        max-width: 360px;
+    }
+    .pg4>p{
+        text-align: left;
+        padding: 50px;
+        font-size: 15px;
+    }
+    .instagram{
+        position: relative; left: 5px;
+    }
+    .twitter{
+        position: relative; left: -2px;
+    }
+    .facebook{
+        position: relative; left: -1px;
+    }
+    footer{
+        max-width: 360px;
     }
 }
