@@ -28,6 +28,7 @@
 }
 body{
     background-color: rgba(8, 7, 7, 0.952);
+    margin: 0px;
 }
 .start{
     background-image: url(/watermelonsugar/images/background.png);
