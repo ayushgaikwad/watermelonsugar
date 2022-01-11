@@ -199,6 +199,38 @@ footer{
     font-size: 20px;
     font-family: 'Quicksand', sans-serif;
 }
+@media (max-device-width: 1024px){
+    .start{
+        max-width: 1024px;
+    }
+    .starttitle{
+        position: relative; left: 280px;
+    }
+    .start>a{
+        position: relative; left: 480px;
+    }
+    #pg2{
+        max-width: 1024px;
+    }
+    .pg3{
+        max-width: 1024px;
+    }
+    .spotify{
+        position: relative; left: 190px; bottom: 10px;
+    }
+    .applemusic{
+        position: relative; top: 100px; left: -40px;
+    }
+    .tidal{
+        position: relative; top: 250px; left: -120px;
+    }
+    .saavn{
+        position: relative; bottom: 5px; left: -190px;
+    }
+    .deezer{
+        position: relative; top: 50px; right: -120px;
+    }
+}
 @media (max-device-width:810px){
     @keyframes arrow1 {
         from{
